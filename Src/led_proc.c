@@ -1,16 +1,5 @@
 #include "led_proc.h"
-#include "led_init.h"
-
-//------------------------------------------------------------------------------
-//
-//------------------------------------------------------------------------------
-
-#define LED_ON          SET_BIT (GPIOB->BSRR, GPIO_BSRR_BS2)
-#define LED_OFF         SET_BIT(GPIOB->BSRR, GPIO_BSRR_BR2)
-#define PIN5_HIGH       SET_BIT (GPIOB->BSRR, GPIO_BSRR_BS5)
-#define PIN5_LOW        SET_BIT(GPIOB->BSRR, GPIO_BSRR_BR5)
-#define TIM3_ON         SET_BIT (TIM3->CR1,TIM_CR1_CEN)				    
-#define TIM3_OFF        CLEAR_BIT (TIM3->CR1,TIM_CR1_CEN)                     
+#include "led_init.h"                 
 
 //------------------------------------------------------------------------------
 //
@@ -38,15 +27,13 @@ void TIM3_IRQHandler (void)							//обработчик прерывания о
 
 void LED_blink (void)
 {
-      if (read_LED_state ())					                //чтение значения PortB2, если LED On - тушим его
+      if (read_LED_state ())					                
       {										
-        LED_OFF;					
-        PIN5_LOW;					
+        LED_off ();					
       }
       else
       {																
-        LED_ON;					
-        PIN5_HIGH;					
+        LED_on ();					
       }
 }
 
@@ -64,13 +51,12 @@ void LED_blink_on_off (uint8_t button_state)
 {
     if (button_state)
     {
-      TIM3_ON;
+      blinc_start ();
     }
     else
     {
-      TIM3_OFF; 
-      LED_OFF;					
-      PIN5_LOW;
+      blinc_stop ();
+      LED_off ();
     }
 }
 

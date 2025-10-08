@@ -8,5 +8,9 @@ void LED_PORT_init (void);							//прототип функции инициа�
 void LED_TIM_init (void);                                                       //прототип функции инициализации TIM3
 
 uint8_t read_LED_state (void);                                                  //Функция чтение состояния LED
+void LED_off (void);
+void LED_on (void);
+void blinc_start (void);
+void blinc_stop (void);
 
 #endif 
