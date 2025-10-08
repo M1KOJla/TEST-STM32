@@ -1,0 +1,38 @@
+#include "led_init.h"
+
+//-----------------------------------------------------------------------------
+//
+//-----------------------------------------------------------------------------
+
+void PORTB_init (void)						                //функция инициализации PORTB PIN2&PIN5
+{
+    SET_BIT (RCC->APB2ENR, RCC_APB2ENR_IOPBEN);			                //включение тактироания порта port B
+		
+    CLEAR_BIT (GPIOB->CRL, GPIO_CRL_MODE5_0);				        //MODE5 установка 10 - Output mode, max speed 2 MHz	
+    SET_BIT (GPIOB->CRL, GPIO_CRL_MODE5_1);					//MODE5 set 10 - Output mode, max speed 2 MHz
+	
+    CLEAR_BIT (GPIOB->CRL, GPIO_CRL_CNF5);					//CNF5 set 00 - General purpose output push-pull
+		
+    CLEAR_BIT (GPIOB->CRL, GPIO_CRL_MODE2_0);				        //MODE2 установка 10 - Output mode, max speed 2 MHz	
+    SET_BIT (GPIOB->CRL, GPIO_CRL_MODE2_1);					//MODE2 set 10 - Output mode, max speed 2 MHz
+	
+    CLEAR_BIT (GPIOB->CRL, GPIO_CRL_CNF2);					//CNF2 set 00 - General purpose output push-pull
+}
+
+//-----------------------------------------------------------------------------
+//
+//-----------------------------------------------------------------------------
+
+void TIM3_init (void)								//функция инициализации TIM3
+{
+    SET_BIT (RCC->APB1ENR, RCC_APB1ENR_TIM3EN);				        //включение тактирования TIM3
+	
+    WRITE_REG (TIM3 -> PSC, 799);						//yстановка предделителя. 8МГц/(799+1)=10 000 тиков за секунду
+    WRITE_REG (TIM3 -> ARR, 1000);					        //задержка 0.1с (10 000*0.1=1000)
+	
+    SET_BIT (TIM3 ->DIER,TIM_DIER_UIE);					        //ключения прерывания по событию обновления таймера TIM3
+    NVIC_EnableIRQ (TIM3_IRQn);						        //включение прерывания для TIM3
+	
+    //SET_BIT (TIM3->CR1,TIM_CR1_CEN);					        //включение таймера
+}
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspace>
+    <project>
+        <path>$WS_DIR$\1-Test.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\..\SET FREQ\PRG_SET FREQ.ewp</path>
+    </project>
+    <batchBuild />
+</workspace>
