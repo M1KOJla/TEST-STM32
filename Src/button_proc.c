@@ -36,11 +36,11 @@ void button_press_tracking (void)
 {
     static uint8_t ButtonCount = 0;                                             //переменная счетчика кнопки
 
-    if (READ_BIT(GPIOA->IDR, GPIO_IDR_IDR0))				        //чтение значения PortA0		
+    if (read_button_state ())				                        		
     {	
-      ButtonCount = 0;						                //если кнопка не нажата то PortA0 = 1. Сброс счетчика кнопки	
+      ButtonCount = 0;						                //если кнопка не нажата . Сброс счетчика кнопки	
     }	
-    else									//иначе кнопка нажата.  PortA0 = 0. 		
+    else									//иначе кнопка нажата.   		
     {		
       if (ButtonCount < 5)						        //для отработки нажатия кнопки, она должна быть нажата в течении 50мс
       {
