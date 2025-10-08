@@ -3,8 +3,5 @@
     <project>
         <path>$WS_DIR$\1-Test.ewp</path>
     </project>
-    <project>
-        <path>$WS_DIR$\..\SET FREQ\PRG_SET FREQ.ewp</path>
-    </project>
     <batchBuild />
 </workspace>
