@@ -7,4 +7,6 @@
 void LED_PORT_init (void);							//прототип функции инициализации PORTB PIN2&PIN5
 void LED_TIM_init (void);                                                       //прототип функции инициализации TIM3
 
+uint8_t read_LED_state (void);                                                  //Функция чтение состояния LED
+
 #endif 

@@ -38,7 +38,7 @@ void TIM3_IRQHandler (void)							//обработчик прерывания о
 
 void LED_blink (void)
 {
-      if (READ_BIT(GPIOB->IDR, GPIO_IDR_IDR2))					//чтение значения PortB2, если LED On - тушим его
+      if (read_LED_state ())					                //чтение значения PortB2, если LED On - тушим его
       {										
         LED_OFF;					
         PIN5_LOW;					
