@@ -133,7 +133,7 @@
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 15 1 20 16 45 46 49 38 51 48 17 11 12 28 2 5</file>
+                    <file> 15 1 20 16 45 46 49 38 51 48 17 11 12 28 2</file>
                 </tool>
             </inputs>
         </file>
@@ -218,7 +218,7 @@
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 4 1 20 16 45 46 49 38 51 48 17 11 12 28 2 14 15</file>
+                    <file> 4 1 20 16 45 46 49 38 51 48 17 11 12 28 2 14 5 15</file>
                 </tool>
             </inputs>
         </file>
