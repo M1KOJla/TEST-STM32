@@ -13,8 +13,6 @@
 
 
 #include "led_proc.h"
-//#include "led_init.h"
-//#include "button_init.h"
 #include "button_proc.h"
 #include "uart_init.h"
 #include "uart_proc.h"
