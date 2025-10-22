@@ -350,8 +350,9 @@
                 <option>
                     <name>CCIncludePath2</name>
                     <state>$PROJ_DIR$\CMSIS\</state>
-                    <state>$PROJ_DIR$\Src</state>
-                    <state>$PROJ_DIR$\Inc</state>
+                    <state>$PROJ_DIR$\BUTTON\</state>
+                    <state>$PROJ_DIR$\LED\</state>
+                    <state>$PROJ_DIR$\UART\</state>
                 </option>
                 <option>
                     <name>CCStdIncCheck</name>
@@ -2106,6 +2107,21 @@
         </settings>
     </configuration>
     <group>
+        <name>BUTTON</name>
+        <file>
+            <name>$PROJ_DIR$\BUTTON\button_init.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\BUTTON\button_init.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\BUTTON\button_proc.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\BUTTON\button_proc.h</name>
+        </file>
+    </group>
+    <group>
         <name>CMSIS</name>
         <file>
             <name>$PROJ_DIR$\CMSIS\cmsis_compiler.h</name>
@@ -2136,45 +2152,33 @@
         </file>
     </group>
     <group>
-        <name>Inc</name>
+        <name>LED</name>
         <file>
-            <name>$PROJ_DIR$\Inc\button_init.h</name>
+            <name>$PROJ_DIR$\LED\led_init.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\Inc\button_proc.h</name>
+            <name>$PROJ_DIR$\LED\led_init.h</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\Inc\led_init.h</name>
+            <name>$PROJ_DIR$\LED\led_proc.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\Inc\led_proc.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Inc\uart_init.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Inc\uart_proc.h</name>
+            <name>$PROJ_DIR$\LED\led_proc.h</name>
         </file>
     </group>
     <group>
-        <name>Src</name>
+        <name>UART</name>
         <file>
-            <name>$PROJ_DIR$\Src\button_init.c</name>
+            <name>$PROJ_DIR$\UART\uart_init.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\Src\button_proc.c</name>
+            <name>$PROJ_DIR$\UART\uart_init.h</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\Src\led_init.c</name>
+            <name>$PROJ_DIR$\UART\uart_proc.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\Src\led_proc.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Src\uart_init.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Src\uart_proc.c</name>
+            <name>$PROJ_DIR$\UART\uart_proc.h</name>
         </file>
     </group>
     <file>
