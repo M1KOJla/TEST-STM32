@@ -12,5 +12,6 @@ void LED_off (void);                                                            
 void LED_on (void);                                                             //прототип функции LED_on
 void blinc_start (void);                                                        //прототип функции blinc_start
 void blinc_stop (void);                                                         //прототип функции blinc_stop
+extern void  LED_blink_irq (void);
 
 #endif 
