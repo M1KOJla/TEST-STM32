@@ -14,7 +14,7 @@
 
 #include "led_proc.h"
 #include "button_proc.h"
-#include "uart_init.h"
+#include "uart_periph.h"
 #include "uart_proc.h"
 
 //-----------------------------------------------------------------------------

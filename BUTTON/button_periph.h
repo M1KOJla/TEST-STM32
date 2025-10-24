@@ -1,5 +1,5 @@
-#ifndef BUTTON_INIT_H
-#define BUTTON_INIT_H
+#ifndef BUTTON_PERIPH_H
+#define BUTTON_PERIPH_H
 
 #include "stm32f1xx.h"
 #define SYSCLK_FREQ  8000000U							//макрос системной частоты МК

@@ -1,5 +1,5 @@
-#ifndef LED_INIT_H
-#define LED_INIT_H
+#ifndef LED_PERIPH_H
+#define LED_PERIPH_H
 
 #include "stm32f1xx.h"
 #define SYSCLK_FREQ  8000000U							//макрос системной частоты МК

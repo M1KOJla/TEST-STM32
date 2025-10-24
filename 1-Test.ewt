@@ -2374,10 +2374,10 @@
     <group>
         <name>BUTTON</name>
         <file>
-            <name>$PROJ_DIR$\BUTTON\button_init.c</name>
+            <name>$PROJ_DIR$\BUTTON\button_periph.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\BUTTON\button_init.h</name>
+            <name>$PROJ_DIR$\BUTTON\button_periph.h</name>
         </file>
         <file>
             <name>$PROJ_DIR$\BUTTON\button_proc.c</name>
@@ -2419,10 +2419,10 @@
     <group>
         <name>LED</name>
         <file>
-            <name>$PROJ_DIR$\LED\led_init.c</name>
+            <name>$PROJ_DIR$\LED\led_periph.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\LED\led_init.h</name>
+            <name>$PROJ_DIR$\LED\led_periph.h</name>
         </file>
         <file>
             <name>$PROJ_DIR$\LED\led_proc.c</name>
@@ -2434,10 +2434,10 @@
     <group>
         <name>UART</name>
         <file>
-            <name>$PROJ_DIR$\UART\uart_init.c</name>
+            <name>$PROJ_DIR$\UART\uart_periph.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\UART\uart_init.h</name>
+            <name>$PROJ_DIR$\UART\uart_periph.h</name>
         </file>
         <file>
             <name>$PROJ_DIR$\UART\uart_proc.c</name>

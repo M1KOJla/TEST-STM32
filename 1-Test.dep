@@ -1,184 +1,207 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
     <fileVersion>4</fileVersion>
-    <fileChecksum>1342774381</fileChecksum>
+    <fileChecksum>2614790338</fileChecksum>
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$PROJ_DIR$\CMSIS\cmsis_compiler.h</file>
-            <file>$PROJ_DIR$\CMSIS\cmsis_iccarm.h</file>
+            <file>$PROJ_DIR$\UART\uart_proc.h</file>
+            <file>$PROJ_DIR$\main.c</file>
+            <file>$PROJ_DIR$\BUTTON\button_proc.c</file>
+            <file>$PROJ_DIR$\CMSIS\core_cm3.h</file>
+            <file>$PROJ_DIR$\LED\led_proc.c</file>
             <file>$PROJ_DIR$\Debug\Obj\uart_proc.o</file>
             <file>$PROJ_DIR$\Debug\Obj\system_stm32f1xx.xcl</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
-            <file>$PROJ_DIR$\Src\uart_init.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\startup_stm32f103xb.o</file>
-            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
-            <file>$PROJ_DIR$\Inc\uart_proc.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\1-Test.pbd</file>
-            <file>$PROJ_DIR$\Src\button_proc.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.xcl</file>
-            <file>$PROJ_DIR$\Src\led_init.c</file>
+            <file>$PROJ_DIR$\BUTTON\button_proc.h</file>
+            <file>$PROJ_DIR$\BUTTON\button_init.c</file>
+            <file>$PROJ_DIR$\CMSIS\cmsis_compiler.h</file>
             <file>$PROJ_DIR$\CMSIS\cmsis_version.h</file>
-            <file>$PROJ_DIR$\Src\uart_proc.c</file>
-            <file>$PROJ_DIR$\Inc\uart_init.h</file>
-            <file>$PROJ_DIR$\CMSIS\startup_stm32f103xb.s</file>
-            <file>$PROJ_DIR$\Debug\List\1-Test.map</file>
-            <file>$PROJ_DIR$\Inc\button_proc.h</file>
-            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
-            <file>$PROJ_DIR$\Debug\Obj\system_stm32f1xx.o</file>
-            <file>$PROJ_DIR$\CMSIS\stm32f103xb_flash.icf</file>
             <file>$PROJ_DIR$\CMSIS\stm32f1xx.h</file>
-            <file>$PROJ_DIR$\CMSIS\system_stm32f1xx.c</file>
             <file>$PROJ_DIR$\CMSIS\stm32f103xb.h</file>
+            <file>$PROJ_DIR$\CMSIS\cmsis_iccarm.h</file>
+            <file>$PROJ_DIR$\CMSIS\system_stm32f1xx.c</file>
+            <file>$PROJ_DIR$\CMSIS\startup_stm32f103xb.s</file>
             <file>$PROJ_DIR$\CMSIS\system_stm32f1xx.h</file>
-            <file>$PROJ_DIR$\Inc\led_proc.h</file>
-            <file>$PROJ_DIR$\CMSIS\core_cm3.h</file>
-            <file>$PROJ_DIR$\Src\button_init.c</file>
-            <file>$PROJ_DIR$\Inc\button_init.h</file>
-            <file>$PROJ_DIR$\Inc\led_init.h</file>
-            <file>$PROJ_DIR$\Src\led_proc.c</file>
-            <file>$PROJ_DIR$\main.c</file>
-            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\led_init.xcl</file>
+            <file>$PROJ_DIR$\LED\led_init.h</file>
+            <file>$PROJ_DIR$\LED\led_init.c</file>
+            <file>$PROJ_DIR$\LED\led_proc.h</file>
+            <file>$PROJ_DIR$\BUTTON\button_init.h</file>
+            <file>$PROJ_DIR$\UART\uart_init.c</file>
+            <file>$PROJ_DIR$\UART\uart_init.h</file>
+            <file>$PROJ_DIR$\UART\uart_proc.c</file>
             <file>$PROJ_DIR$\Debug\Exe\1-Test.hex</file>
-            <file>$PROJ_DIR$\Debug\Obj\button_init.o</file>
             <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\button_init.xcl</file>
+            <file>$PROJ_DIR$\Src\led_proc.c</file>
             <file>$PROJ_DIR$\Debug\Obj\led_proc.xcl</file>
-            <file>$PROJ_DIR$\Debug\Obj\button_proc.o</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
             <file>$PROJ_DIR$\Debug\Obj\uart_proc.xcl</file>
+            <file>$PROJ_DIR$\Inc\button_proc.h</file>
+            <file>$PROJ_DIR$\CMSIS\stm32f103xb_flash.icf</file>
+            <file>$PROJ_DIR$\Debug\List\1-Test.map</file>
             <file>$PROJ_DIR$\Debug\Obj\led_init.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\button_init.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\button_proc.o</file>
+            <file>$PROJ_DIR$\Inc\uart_proc.h</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
             <file>$PROJ_DIR$\Debug\Obj\led_proc.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
-            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
-            <file>$PROJ_DIR$\Debug\Exe\1-Test.out</file>
+            <file>$PROJ_DIR$\Src\button_proc.c</file>
+            <file>$PROJ_DIR$\Inc\led_proc.h</file>
+            <file>$PROJ_DIR$\Src\button_init.c</file>
+            <file>$PROJ_DIR$\Src\uart_proc.c</file>
+            <file>$PROJ_DIR$\Inc\button_init.h</file>
+            <file>$PROJ_DIR$\Inc\uart_init.h</file>
+            <file>$PROJ_DIR$\Src\led_init.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\1-Test.pbd</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.xcl</file>
+            <file>$PROJ_DIR$\Src\uart_init.c</file>
+            <file>$PROJ_DIR$\Inc\led_init.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\led_init.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup_stm32f103xb.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\button_init.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_stm32f1xx.o</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
             <file>$PROJ_DIR$\Debug\Obj\uart_init.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\uart_init.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\led_init.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\button_proc.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\button_init.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\uart_proc.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_stm32f1xx.__cstat.et</file>
             <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\led_proc.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Exe\1-Test.out</file>
             <file>$PROJ_DIR$\Debug\Obj\uart_init.xcl</file>
             <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
             <file>$PROJ_DIR$\Debug\Obj\button_proc.xcl</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\uart_init.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\led_init.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\uart_proc.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\button_proc.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\system_stm32f1xx.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\button_init.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\led_proc.__cstat.et</file>
-            <file>$PROJ_DIR$\UART\uart_proc.c</file>
-            <file>$PROJ_DIR$\UART\uart_init.c</file>
-            <file>$PROJ_DIR$\UART\uart_proc.h</file>
-            <file>$PROJ_DIR$\UART\uart_init.h</file>
-            <file>$PROJ_DIR$\LED\led_init.h</file>
-            <file>$PROJ_DIR$\LED\led_proc.c</file>
-            <file>$PROJ_DIR$\LED\led_proc.h</file>
-            <file>$PROJ_DIR$\LED\led_init.c</file>
-            <file>$PROJ_DIR$\BUTTON\button_init.c</file>
-            <file>$PROJ_DIR$\BUTTON\button_init.h</file>
-            <file>$PROJ_DIR$\BUTTON\button_proc.c</file>
-            <file>$PROJ_DIR$\BUTTON\button_proc.h</file>
+            <file>$PROJ_DIR$\LED\led_periph.h</file>
+            <file>$PROJ_DIR$\LED\led_periph.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\led_periph.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\uart_periph.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\button_periph.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\uart_periph.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\led_periph.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\button_periph.xcl</file>
+            <file>$PROJ_DIR$\UART\uart_periph.h</file>
+            <file>$PROJ_DIR$\UART\uart_periph.c</file>
+            <file>$PROJ_DIR$\BUTTON\button_periph.h</file>
+            <file>$PROJ_DIR$\BUTTON\button_periph.c</file>
         </outputs>
         <file>
             <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 47 17</file>
+                    <file> 71 33</file>
                 </tool>
             </outputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\Src\uart_init.c</name>
+            <name>$PROJ_DIR$\main.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 48</file>
+                    <file> 67</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
+                    <file> 61</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 48</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 20 12 13 3 69 26 51 7 64 38 11 10 14 66 17 8 83 0</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\BUTTON\button_proc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 74</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 8 12 13 3 69 26 51 7 64 38 11 10 14 66 17 85</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\LED\led_proc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 39</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 28</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 20 12 13 3 69 26 51 7 64 38 11 10 14 66 17 75</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\BUTTON\button_init.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 54</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 35</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 21 12 13 3 69 26 51 7 64 38 11 10 14 66 17</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\CMSIS\system_stm32f1xx.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
                     <file> 55</file>
                 </tool>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 50</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 15 22 24 27 53 37 33 4 45 43 13 0 1 49 25</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Src\button_proc.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 40</file>
-                </tool>
-                <tool>
                     <name>__cstat</name>
-                    <file> 58</file>
+                    <file> 65</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 52</file>
+                    <file> 6</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 18 22 24 27 53 37 33 4 45 43 13 0 1 49 25 29</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Src\led_init.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 42</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 56</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 34</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 30 22 24 27 53 37 33 4 45 43 13 0 1 49 25</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Src\uart_proc.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 2</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 57</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 41</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 8 22 24 27 53 37 33 4 45 43 13 0 1 49 25 15</file>
+                    <file> 12 13 3 69 26 51 7 64 38 11 10 14 66 17</file>
                 </tool>
             </inputs>
         </file>
@@ -187,53 +210,64 @@
             <outputs>
                 <tool>
                     <name>AARM</name>
-                    <file> 6</file>
+                    <file> 53</file>
                 </tool>
             </outputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\CMSIS\system_stm32f1xx.c</name>
+            <name>$PROJ_DIR$\LED\led_init.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 20</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 60</file>
+                    <file> 34</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 3</file>
+                    <file> 52</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 22 24 27 53 37 33 4 45 43 13 0 1 49 25</file>
+                    <file> 18 12 13 3 69 26 51 7 64 38 11 10 14 66 17</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\Src\button_init.c</name>
+            <name>$PROJ_DIR$\UART\uart_init.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 36</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 61</file>
+                    <file> 57</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 38</file>
+                    <file> 72</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 29 22 24 27 53 37 33 4 45 43 13 0 1 49 25</file>
+                    <file> 23 12 13 3 69 26 51 7 64 38 11 10 14 66 17</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\UART\uart_proc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 5</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 30</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 0 12 13 3 69 26 51 7 64 38 11 10 14 66 17 83</file>
                 </tool>
             </inputs>
         </file>
@@ -242,26 +276,49 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 44</file>
+                    <file> 39</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 62</file>
+                    <file> 70</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 39</file>
+                    <file> 28</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 26 22 24 27 53 37 33 4 45 43 13 0 1 49 25 30</file>
+                    <file> 41 12 13 3 69 26 51 7 64 38 11 10 14 66 17 50</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\main.c</name>
+            <name>$PROJ_DIR$\Src\button_proc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 60</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 74</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 31 12 13 3 69 26 51 7 64 38 11 10 14 66 17 44</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Src\button_init.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
@@ -269,17 +326,86 @@
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 59</file>
+                    <file> 62</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 11</file>
+                    <file> 35</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 26 22 24 27 53 37 33 4 45 43 13 0 1 49 25 18 15 8</file>
+                    <file> 44 12 13 3 69 26 51 7 64 38 11 10 14 66 17</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Src\uart_proc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 5</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 63</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 30</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 37 12 13 3 69 26 51 7 64 38 11 10 14 66 17 45</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Src\led_init.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 34</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 59</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 52</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 50 12 13 3 69 26 51 7 64 38 11 10 14 66 17</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Src\uart_init.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 57</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 58</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 72</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 45 12 13 3 69 26 51 7 64 38 11 10 14 66 17</file>
                 </tool>
             </inputs>
         </file>
@@ -287,135 +413,78 @@
             <name>$PROJ_DIR$\Debug\Exe\1-Test.out</name>
             <outputs>
                 <tool>
-                    <name>ILINK</name>
-                    <file> 17</file>
+                    <name>OBJCOPY</name>
+                    <file> 25</file>
                 </tool>
                 <tool>
-                    <name>OBJCOPY</name>
-                    <file> 35</file>
+                    <name>ILINK</name>
+                    <file> 33</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 21 36 40 42 44 54 6 20 48 2 19 46 51 7</file>
+                    <file> 32 79 36 81 39 67 53 55 78 5 29 68 73 56</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\UART\uart_proc.c</name>
+            <name>$PROJ_DIR$\LED\led_periph.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 2</file>
+                    <file> 81</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 41</file>
+                    <file> 77</file>
                 </tool>
             </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 75 12 13 3 69 26 51 7 64 38 11 10 14 66 17</file>
+                </tool>
+            </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\UART\uart_init.c</name>
+            <name>$PROJ_DIR$\UART\uart_periph.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 48</file>
+                    <file> 78</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 50</file>
+                    <file> 80</file>
                 </tool>
             </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 83 12 13 3 69 26 51 7 64 38 11 10 14 66 17</file>
+                </tool>
+            </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\LED\led_proc.c</name>
+            <name>$PROJ_DIR$\BUTTON\button_periph.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 44</file>
+                    <file> 79</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 39</file>
+                    <file> 82</file>
                 </tool>
             </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\LED\led_init.c</name>
-            <outputs>
+            <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 42</file>
+                    <file> 85 12 13 3 69 26 51 7 64 38 11 10 14 66 17</file>
                 </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 34</file>
-                </tool>
-            </outputs>
+            </inputs>
         </file>
-        <file>
-            <name>$PROJ_DIR$\BUTTON\button_init.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 36</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 38</file>
-                </tool>
-            </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\BUTTON\button_proc.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 40</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 52</file>
-                </tool>
-            </outputs>
-        </file>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\CMSIS\system_stm32f1xx.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\main.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\UART\uart_proc.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\UART\uart_init.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\LED\led_proc.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\LED\led_init.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\BUTTON\button_init.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\BUTTON\button_proc.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>[MULTI_TOOL]</name>
-            <tool>ILINK</tool>
-        </forcedrebuild>
     </configuration>
     <configuration>
         <name>Release</name>

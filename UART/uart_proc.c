@@ -1,5 +1,5 @@
 #include "uart_proc.h"
-#include "uart_init.h"
+#include "uart_periph.h"
 
 
 //-----------------------------------------------------------------------------

@@ -1,5 +1,5 @@
 #include "button_proc.h"
-#include "button_init.h"
+#include "button_periph.h"
 
 //-----------------------------------------------------------------------------
 //
